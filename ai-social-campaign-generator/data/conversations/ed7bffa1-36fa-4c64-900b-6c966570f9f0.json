@@ -1,0 +1,63 @@
+{
+  "session_id": "ed7bffa1-36fa-4c64-900b-6c966570f9f0",
+  "current_stage": "strategy_development",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! I'm your dedicated marketing consultant for ProteinRX. I know all about your luxury protein smoothie brand - the convenient canned drinks targeting gym-goers (20-45), your red & black branding with the dumbbell logo, and focus on Instagram for brand awareness. Do you have any specific campaign ideas or themes you'd like to implement for ProteinRX?",
+      "timestamp": "2025-09-20T06:16:23.587491",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "buy 2 free 3",
+      "timestamp": "2025-09-20T06:16:29.322023",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "1. The 5-Star Fuel Up\n2. Epic Gain Stack\n3. Power-Pack Quintet",
+      "timestamp": "2025-09-20T06:16:37.591563",
+      "metadata": null
+    }
+  ],
+  "company_info": {
+    "name": "ProteinRX",
+    "industry": "fitness_wellness",
+    "description": "Health & Fitness - Protein Smoothie Drinks",
+    "target_audience": "Gym-goers and fitness enthusiasts (20-45 years old)",
+    "brand_voice": "Luxury and strong",
+    "brand_values": null,
+    "unique_selling_points": [
+      "Convenient canned format for accessibility",
+      "Available everywhere"
+    ],
+    "competitors": [
+      "Traditional protein powder brands"
+    ],
+    "website": null,
+    "current_social_presence": null
+  },
+  "campaign_goals": {
+    "primary_objective": "brand_awareness",
+    "secondary_objectives": null,
+    "target_platforms": [
+      "instagram"
+    ],
+    "budget_range": null,
+    "duration_weeks": null,
+    "specific_requirements": null
+  },
+  "extracted_insights": {
+    "brand_assets": {
+      "colors": "Red and black",
+      "font": "Lato",
+      "logo": "Dumbbell symbol"
+    }
+  },
+  "pending_questions": [],
+  "user_preferences": {},
+  "campaign_output": null,
+  "created_at": "2025-09-20T06:16:23.587491",
+  "last_updated": "2025-09-20T06:16:37.591563"
+}

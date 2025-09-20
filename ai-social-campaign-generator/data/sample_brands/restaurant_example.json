@@ -1,0 +1,63 @@
+{
+  "company_info": {
+    "name": "Nasi Lemak Express",
+    "industry": "food_beverage",
+    "description": "Authentic Malaysian cuisine restaurant serving traditional dishes with a modern twist in downtown urban area",
+    "target_audience": "Young professionals aged 25-40, food enthusiasts, and cultural experience seekers in urban areas",
+    "brand_voice": "Warm, welcoming, authentic, and passionate about Malaysian culture and cuisine",
+    "brand_values": [
+      "Authenticity",
+      "Quality ingredients",
+      "Cultural heritage",
+      "Community connection",
+      "Fresh daily preparation"
+    ],
+    "unique_selling_points": [
+      "Family recipes passed down through generations",
+      "Fresh ingredients imported from Malaysia",
+      "Traditional cooking methods with modern presentation",
+      "Vegetarian and halal options available",
+      "Cultural storytelling through food"
+    ],
+    "competitors": [
+      "Local Asian fusion restaurants",
+      "Traditional Malaysian restaurants",
+      "Thai and Vietnamese restaurants in the area"
+    ],
+    "website": "https://nasillemakexpress.com",
+    "current_social_presence": {
+      "instagram": "@nasillemakexpress",
+      "facebook": "Nasi Lemak Express Restaurant"
+    }
+  },
+  "campaign_goals": {
+    "primary_objective": "brand_awareness",
+    "secondary_objectives": ["engagement", "website_traffic"],
+    "target_platforms": ["instagram", "facebook"],
+    "budget_range": "$500-1000 per month",
+    "duration_weeks": 8,
+    "specific_requirements": "Focus on food photography and cultural storytelling, increase foot traffic for lunch and dinner service"
+  },
+  "sample_content_ideas": [
+    {
+      "pillar": "Food Showcase",
+      "content_type": "Food photography",
+      "example": "Behind-the-scenes of our chef preparing signature nasi lemak with coconut rice and sambal"
+    },
+    {
+      "pillar": "Cultural Stories",
+      "content_type": "Educational content",
+      "example": "The history and cultural significance of nasi lemak in Malaysian breakfast tradition"
+    },
+    {
+      "pillar": "Customer Experience",
+      "content_type": "User-generated content",
+      "example": "Customer reactions and testimonials trying Malaysian cuisine for the first time"
+    },
+    {
+      "pillar": "Behind the Scenes",
+      "content_type": "Process videos",
+      "example": "Morning preparation of fresh ingredients and traditional cooking techniques"
+    }
+  ]
+}

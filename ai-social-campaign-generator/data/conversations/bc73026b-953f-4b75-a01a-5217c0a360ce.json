@@ -1,0 +1,74 @@
+{
+  "session_id": "bc73026b-953f-4b75-a01a-5217c0a360ce",
+  "current_stage": "discovery",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! I'm here to help you create a social media campaign. What business are you in?",
+      "timestamp": "2025-09-20T03:55:32.110058",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "i sell phones, second handed",
+      "timestamp": "2025-09-20T03:55:48.758819",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for that information! Could you tell me a bit more about what your business does and who your customers are?",
+      "timestamp": "2025-09-20T03:55:48.758819",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "its broad",
+      "timestamp": "2025-09-20T03:55:58.872552",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I'd love to learn more about your business. That sounds interesting! What makes your bread special compared to others?",
+      "timestamp": "2025-09-20T03:55:58.872552",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "C:/Hackathon/ai-social-campaign-generator/.venv/Scripts/python.exe c:/Hackathon/ai-social-campaign-generator/main.py",
+      "timestamp": "2025-09-20T03:57:45.384669",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "I'd love to learn more about your business. That sounds interesting! What makes your bread special compared to others?",
+      "timestamp": "2025-09-20T03:57:45.385134",
+      "metadata": null
+    }
+  ],
+  "company_info": {
+    "name": "",
+    "industry": null,
+    "description": null,
+    "target_audience": null,
+    "brand_voice": null,
+    "brand_values": null,
+    "unique_selling_points": null,
+    "competitors": null,
+    "website": null,
+    "current_social_presence": null
+  },
+  "campaign_goals": {
+    "primary_objective": null,
+    "secondary_objectives": null,
+    "target_platforms": null,
+    "budget_range": null,
+    "duration_weeks": null,
+    "specific_requirements": null
+  },
+  "extracted_insights": {},
+  "pending_questions": [],
+  "user_preferences": {},
+  "campaign_output": null,
+  "created_at": "2025-09-20T03:55:32.110058",
+  "last_updated": "2025-09-20T03:57:45.385134"
+}

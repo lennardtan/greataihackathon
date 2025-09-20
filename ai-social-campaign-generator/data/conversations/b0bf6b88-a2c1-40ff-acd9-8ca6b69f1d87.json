@@ -1,0 +1,98 @@
+{
+  "session_id": "b0bf6b88-a2c1-40ff-acd9-8ca6b69f1d87",
+  "current_stage": "discovery",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! I'm here to help you create a social media campaign. What business are you in?",
+      "timestamp": "2025-09-20T03:57:53.734769",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2025-09-20T03:57:55.808652",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! Great to connect.\n\nI'd love to hear more about your business! What do you do, or what kind of products/services do you offer? Knowing that will really help us figure out the best social media approach.",
+      "timestamp": "2025-09-20T03:58:00.429671",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "i service cars",
+      "timestamp": "2025-09-20T03:58:11.248326",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, nice! When you say \"service cars,\" does that mean you do a bit of everything, or do you specialize in certain types of vehicles or specific kinds of work?",
+      "timestamp": "2025-09-20T03:58:17.531091",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "everything, i have a car workshop, i want to prmote my fb presences",
+      "timestamp": "2025-09-20T03:58:38.782682",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "To help me get a better feel, could you tell me a bit about what kind of services you specialize in, or maybe what makes your workshop unique?",
+      "timestamp": "2025-09-20T03:58:42.890184",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "its called GGLAB, and the tone is professional, and what makes our workshop unique is that we have membership tier where service car will give discount if you have membership we will be focusing on that area only",
+      "timestamp": "2025-09-20T03:59:46.492817",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "That membership tier with service car discounts sounds like a really smart and unique way to build loyalty!\n\nCould you tell me a bit more about what kind of 'service car' we're talking about?",
+      "timestamp": "2025-09-20T03:59:52.387959",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "maintanence",
+      "timestamp": "2025-09-20T04:00:05.085128",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "What kind of maintenance do you specialize in?",
+      "timestamp": "2025-09-20T04:00:10.622122",
+      "metadata": null
+    }
+  ],
+  "company_info": {
+    "name": "",
+    "industry": null,
+    "description": null,
+    "target_audience": null,
+    "brand_voice": null,
+    "brand_values": null,
+    "unique_selling_points": null,
+    "competitors": null,
+    "website": null,
+    "current_social_presence": null
+  },
+  "campaign_goals": {
+    "primary_objective": null,
+    "secondary_objectives": null,
+    "target_platforms": null,
+    "budget_range": null,
+    "duration_weeks": null,
+    "specific_requirements": null
+  },
+  "extracted_insights": {},
+  "pending_questions": [],
+  "user_preferences": {},
+  "campaign_output": null,
+  "created_at": "2025-09-20T03:57:53.734769",
+  "last_updated": "2025-09-20T04:00:10.622122"
+}

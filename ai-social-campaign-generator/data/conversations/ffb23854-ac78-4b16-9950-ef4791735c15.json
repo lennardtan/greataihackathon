@@ -1,0 +1,50 @@
+{
+  "session_id": "ffb23854-ac78-4b16-9950-ef4791735c15",
+  "current_stage": "discovery",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! I'm here to help you create a social media campaign. What business are you in?",
+      "timestamp": "2025-09-20T04:25:24.039713",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "hi, do u know what is protienRX",
+      "timestamp": "2025-09-20T04:25:40.804610",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, ProteinRX! Got it. That sounds like it's right in the health and wellness space, which is always so vibrant on social media!\n\nTo help me get a better picture, could you tell me a little more about what ProteinRX is exactly? Like, what kind of products or services do you offer, and who are you looking to help with it?",
+      "timestamp": "2025-09-20T04:25:47.080287",
+      "metadata": null
+    }
+  ],
+  "company_info": {
+    "name": "",
+    "industry": null,
+    "description": null,
+    "target_audience": null,
+    "brand_voice": null,
+    "brand_values": null,
+    "unique_selling_points": null,
+    "competitors": null,
+    "website": null,
+    "current_social_presence": null
+  },
+  "campaign_goals": {
+    "primary_objective": null,
+    "secondary_objectives": null,
+    "target_platforms": null,
+    "budget_range": null,
+    "duration_weeks": null,
+    "specific_requirements": null
+  },
+  "extracted_insights": {},
+  "pending_questions": [],
+  "user_preferences": {},
+  "campaign_output": null,
+  "created_at": "2025-09-20T04:25:24.039713",
+  "last_updated": "2025-09-20T04:25:47.080287"
+}

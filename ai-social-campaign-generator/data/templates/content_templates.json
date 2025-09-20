@@ -1,0 +1,62 @@
+{
+  "instagram_templates": {
+    "food_showcase": {
+      "template": "🍽️ {dish_name} is ready to tantalize your taste buds! {description}\n\n{cultural_context}\n\n📍 Visit us at {location}\n⏰ {hours}\n\n{hashtags}",
+      "example": "🍽️ Our signature Nasi Lemak is ready to tantalize your taste buds! Aromatic coconut rice paired with crispy anchovies, fresh cucumber, and our secret sambal recipe.\n\nIn Malaysia, this beloved dish represents the perfect harmony of flavors that brings communities together every morning.\n\n📍 Visit us at Downtown Food District\n⏰ Open daily 11AM-9PM\n\n#NasiLemak #MalaysianCuisine #AuthenticFlavors #FoodLovers #DowntownEats"
+    },
+    "behind_scenes": {
+      "template": "🔥 Behind the magic: {process_description}\n\n{interesting_fact}\n\n{call_to_action}\n\n{hashtags}",
+      "example": "🔥 Behind the magic: Our chef starts at 6AM every morning, slowly simmering coconut milk with pandan leaves to create the perfect aromatic rice base.\n\nDid you know? The secret to perfect nasi lemak rice is the ratio of coconut milk to water - a closely guarded family recipe!\n\nCome taste the difference that traditional preparation makes! 👨‍🍳\n\n#BehindTheScenes #TraditionalCooking #MalaysianTradition #ChefLife #AuthenticPreparation"
+    },
+    "cultural_story": {
+      "template": "📚 Culture Corner: {cultural_fact}\n\n{personal_connection}\n\n{invitation}\n\n{hashtags}",
+      "example": "📚 Culture Corner: Nasi lemak, literally meaning 'fat rice' in Malay, is Malaysia's unofficial national dish and a symbol of multicultural harmony.\n\nOur family has been perfecting this recipe for three generations, bringing the authentic taste of Malaysia to your neighborhood.\n\nCome experience a piece of Malaysian culture with every bite! 🇲🇾\n\n#MalaysianCulture #FamilyTradition #CulturalFood #NationalDish #FoodHeritage"
+    }
+  },
+  "facebook_templates": {
+    "community_engagement": {
+      "template": "{greeting} {community_reference}!\n\n{main_content}\n\n{community_question}\n\n{business_info}\n\n{hashtags}",
+      "example": "Good morning, Downtown food lovers!\n\nWe're excited to share that our weekend special features traditional Malaysian breakfast served all day! Experience the authentic flavors that make nasi lemak Malaysia's most beloved comfort food.\n\nWhat's your favorite breakfast dish that reminds you of home? Share with us in the comments!\n\n📍 123 Main Street, Downtown\n📞 (555) 123-4567\n🌐 nasillemakexpress.com\n\n#MalaysianBreakfast #WeekendSpecial #ComfortFood #CommunityFavorites"
+    },
+    "event_announcement": {
+      "template": "🎉 {event_type}: {event_title}\n\n{event_details}\n\n{special_offers}\n\n{booking_info}\n\n{hashtags}",
+      "example": "🎉 Special Event: Malaysian Cultural Night\n\nJoin us this Friday for an evening celebrating Malaysian culture with traditional music, cultural performances, and a special tasting menu featuring our chef's family recipes.\n\n🎵 Live traditional music from 7-9 PM\n🍽️ 5-course tasting menu for $35\n🥤 Complimentary Malaysian iced tea\n\nReservations required - call (555) 123-4567 or book online!\n\n#MalaysianCulture #CulturalNight #TastingMenu #LiveMusic #BookNow"
+    }
+  },
+  "linkedin_templates": {
+    "business_story": {
+      "template": "{professional_opening}\n\n{business_journey}\n\n{market_insight}\n\n{call_to_action}\n\n{hashtags}",
+      "example": "Building authentic culinary experiences in today's competitive restaurant landscape requires more than great food - it demands cultural storytelling.\n\nAt Nasi Lemak Express, we've discovered that customers crave not just flavor, but connection to the stories behind their meals. Our approach of sharing Malaysian cultural heritage through food has increased customer engagement by 150% and built a loyal community of food enthusiasts.\n\nThe food service industry is evolving beyond mere dining to cultural education and community building. How is your business creating meaningful connections with customers?\n\n#RestaurantBusiness #CulturalMarketing #CustomerEngagement #FoodIndustry #CommunityBuilding"
+    }
+  },
+  "universal_elements": {
+    "call_to_actions": [
+      "Visit us today!",
+      "Tag a friend who would love this!",
+      "Share your favorite dish with us!",
+      "Book your table now!",
+      "Try something new today!",
+      "What's your go-to comfort food?",
+      "Come hungry, leave happy!",
+      "Experience the difference!"
+    ],
+    "engagement_hooks": [
+      "What do you think?",
+      "Have you tried this before?",
+      "Share in the comments!",
+      "Tag someone who needs to see this!",
+      "What's your favorite?",
+      "Tell us your story!",
+      "Double tap if you agree!",
+      "Save this for later!"
+    ],
+    "hashtag_categories": {
+      "brand": ["#NasiLemakExpress", "#AuthenticMalaysian"],
+      "food": ["#MalaysianCuisine", "#NasiLemak", "#AsianFood", "#FoodLovers"],
+      "location": ["#DowntownEats", "#LocalRestaurant", "#FoodDistrict"],
+      "culture": ["#MalaysianCulture", "#FoodHeritage", "#TraditionalCooking"],
+      "experience": ["#FoodExperience", "#AuthenticFlavors", "#CulturalDining"],
+      "community": ["#Foodie", "#FoodCommunity", "#LocalSupport"]
+    }
+  }
+}

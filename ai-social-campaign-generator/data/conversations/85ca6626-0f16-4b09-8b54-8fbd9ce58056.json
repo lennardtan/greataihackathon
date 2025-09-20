@@ -1,0 +1,50 @@
+{
+  "session_id": "85ca6626-0f16-4b09-8b54-8fbd9ce58056",
+  "current_stage": "discovery",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! I'm thrilled to help you build an effective social media presence. What's your business, and what are your biggest marketing challenges right now?",
+      "timestamp": "2025-09-19T16:41:00.943275",
+      "metadata": null
+    },
+    {
+      "role": "user",
+      "content": "Not able to get leads",
+      "timestamp": "2025-09-19T16:41:08.294840",
+      "metadata": null
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for that information! Could you tell me a bit more about what your business does and who your customers are?",
+      "timestamp": "2025-09-19T16:41:08.651354",
+      "metadata": null
+    }
+  ],
+  "company_info": {
+    "name": "",
+    "industry": null,
+    "description": null,
+    "target_audience": null,
+    "brand_voice": null,
+    "brand_values": null,
+    "unique_selling_points": null,
+    "competitors": null,
+    "website": null,
+    "current_social_presence": null
+  },
+  "campaign_goals": {
+    "primary_objective": null,
+    "secondary_objectives": null,
+    "target_platforms": null,
+    "budget_range": null,
+    "duration_weeks": null,
+    "specific_requirements": null
+  },
+  "extracted_insights": {},
+  "pending_questions": [],
+  "user_preferences": {},
+  "campaign_output": null,
+  "created_at": "2025-09-19T16:41:00.943275",
+  "last_updated": "2025-09-19T16:41:08.651354"
+}
