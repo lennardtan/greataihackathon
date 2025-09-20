@@ -50,53 +50,71 @@ class ImageService:
     
     async def _generate_with_gemini(self, prompt: str, style: Optional[str] = None,
                                   platform: Optional[str] = None) -> Optional[str]:
-        """Generate image using Hugging Face DALL-E Mini API (free alternative)"""
+        """Generate image using Gemini 2.5 Flash Image Preview API (official implementation)"""
         try:
             enhanced_prompt = self._enhance_prompt(prompt, style, platform)
-            logger.info(f"Generating image with Hugging Face API for prompt: {enhanced_prompt[:50]}...")
+            logger.info(f"Generating image with Gemini 2.5 Flash Image Preview: {enhanced_prompt[:50]}...")
 
-            # Use Hugging Face Inference API for DALL-E Mini (free)
-            url = "https://api-inference.huggingface.co/models/dalle-mini/dalle-mini"
+            # Official Gemini 2.5 Flash Image Preview API endpoint
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key={self.api_key}"
 
-            headers = {
-                "Authorization": f"Bearer {self.api_key}",  # Use your API key as HF token
-                "Content-Type": "application/json"
-            }
-
+            # Correct payload structure based on official documentation
             payload = {
-                "inputs": enhanced_prompt[:100],  # Limit prompt length
-                "parameters": {
-                    "num_inference_steps": 50,
-                    "guidance_scale": 7.5
+                "contents": [{
+                    "parts": [{
+                        "text": enhanced_prompt
+                    }]
+                }],
+                "generationConfig": {
+                    "temperature": 1.0,
+                    "topK": 32,
+                    "topP": 1,
+                    "maxOutputTokens": 4096,
+                    "responseMimeType": "application/json"
                 }
             }
 
             async with aiohttp.ClientSession() as session:
-                async with session.post(url, json=payload, headers=headers, timeout=120) as response:
-                    logger.info(f"Hugging Face API response status: {response.status}")
+                async with session.post(url, json=payload, timeout=120) as response:
+                    logger.info(f"Gemini Image API response status: {response.status}")
 
                     if response.status == 200:
-                        # Response should be binary image data
-                        image_bytes = await response.read()
-                        logger.info(f"Received image data: {len(image_bytes)} bytes")
+                        result = await response.json()
+                        logger.info(f"Gemini response structure: {list(result.keys())}")
 
-                        # Convert to base64
-                        import base64
-                        image_base64 = base64.b64encode(image_bytes).decode('utf-8')
-                        return f"data:image/png;base64,{image_base64}"
+                        # Check for generated images in the response
+                        if 'candidates' in result and result['candidates']:
+                            candidate = result['candidates'][0]
+                            logger.info(f"Candidate structure: {list(candidate.keys())}")
 
-                    elif response.status == 503:
-                        # Model loading, try fallback
-                        logger.warning("Model loading, trying alternative API...")
+                            # Look for content with parts containing inline data (images)
+                            if 'content' in candidate and 'parts' in candidate['content']:
+                                for part in candidate['content']['parts']:
+                                    logger.info(f"Part structure: {list(part.keys())}")
+
+                                    # Check for inline data (base64 encoded image)
+                                    if 'inlineData' in part:
+                                        inline_data = part['inlineData']
+                                        if 'data' in inline_data:
+                                            image_data = inline_data['data']
+                                            mime_type = inline_data.get('mimeType', 'image/png')
+                                            logger.info(f"Found Gemini image: {len(image_data)} chars, type: {mime_type}")
+                                            return f"data:{mime_type};base64,{image_data}"
+
+                        # If no image found in Gemini response, try fallback
+                        logger.warning("No image data found in Gemini response, trying fallback...")
+                        logger.info(f"Full response for debugging: {result}")
                         return await self._generate_with_pollinations(enhanced_prompt, style, platform)
 
                     else:
                         error_text = await response.text()
-                        logger.error(f"Hugging Face API error {response.status}: {error_text}")
+                        logger.error(f"Gemini API error {response.status}: {error_text}")
+                        # Try fallback API
                         return await self._generate_with_pollinations(enhanced_prompt, style, platform)
 
         except Exception as e:
-            logger.error(f"Hugging Face image generation error: {e}")
+            logger.error(f"Gemini image generation error: {e}")
+            # Try fallback API
             return await self._generate_with_pollinations(enhanced_prompt, style, platform)
 
     async def _generate_with_pollinations(self, prompt: str, style: Optional[str] = None,
